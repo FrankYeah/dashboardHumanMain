@@ -18,9 +18,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'og:title'  , property: 'og:title'  , content: 'Dashboard'},
       { hid: 'og:image' , property: 'og:image' , content: 'icon.png'},
       { hid: 'og:type' , property: 'og:type' , content: 'website'},
-      { hid: 'description', name: 'description', content: 'Dashboard' }
+      // { hid: 'og:url' , property: 'og:url' , content: ''},
+      { hid: 'description', name: 'description', content: 'Dashboard' },
+      { hid: 'og:description' , property: 'og:description' , content: 'Dashboard'},
     ],
     link: [
       // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
